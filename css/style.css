@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+#display-points {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: red;
+    font-size: 6px;
+    width: 50%;
+}
+h1 {
+    color: white;
+    padding: -50px -50px -50px -50px;
+}
+#point-title, #point1, #point2, #point3, #point4, #point5 {
+    float: left;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    border-color: yellow;
+    background: black;
+    width: 16.3%;
+}
+#card-table {
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+    width: 50%;
+    height: 55%;
+    background-color: #06eb06;
+}
+.card {
+    height: 50%;
+    width: 19.5%;
+    float: left;
+    background-color: white;
+    margin: 18% auto;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+#bet, #deal, #reset{
+    float: left;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #fff;
+}
+#bet {
+    background-color: royalblue;
+}
+#deal {
+    background-color: yellow;
+}
+#reset {
+    background-color: orange;
+}
+#card-button {
+    position:absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#point, #wager, #money {
+    margin: 1px 1px;
+    font-size: 20px;
+}
+#score-table {
+    position:absolute;
+    top: 46%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+#suit-num1, #suit-num2, #suit-num3, #suit-num4, #suit-num5{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    float: left;
+    font-size: 64px;
+}
+#suit-type1, #suit-type2, #suit-type3, #suit-type4, #suit-type5 {
+    position: relative;
+    top: 1%;
+    left: -12%;
+    transform: translate(-50%, -50%);
+    color: black;
+    float: left;
+    font-size: 20px;
+}
+#card-display1:hover, #card-display2:hover, #card-display3:hover, #card-display4:hover, #card-display5:hover {
+    opacity: 0.8;
+}
